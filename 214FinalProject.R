@@ -8,7 +8,7 @@ library(car) # For VIF (Variance Inflation Factor)
 
 # 2. Load and Clean the Data
 # ------------------------------------------------------------------------------
-# Read the CSV file (Make sure the file is in your working directory)
+# Read the CSV file (Modify line 12 to ensure the file is in your working directory)
 movies <- read_csv("/Users/ysfsouayah/Downloads/top-500-movies.csv", show_col_types = FALSE)
 
 # Clean currency columns (remove '$' and ',') and convert to numeric
